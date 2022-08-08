@@ -1,0 +1,33 @@
+.sell{
+  padding-top: 2em;
+  color: #fff;
+  background-color: black;
+  text-align: center;
+}
+
+.sell h2{
+  margin-bottom: 2em;
+}
+
+.sell-title:hover{
+  color: #068687;
+}
+
+.social-media-box ul{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-box ul li{
+  margin-right: 2em;
+}
+
+.social-media-box ul li a img:hover{
+  width: 100px;
+  transition: 0.6s;
+}
+
+.social-media{
+  width: 80px;
+  margin-bottom: 2em;
+}

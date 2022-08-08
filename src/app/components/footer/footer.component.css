@@ -1,0 +1,26 @@
+footer{
+  margin-top: 5em;
+  height: 130px;
+  background-color: black;
+  color: #f2f3f9;
+}
+
+.social-media{
+  width: 100px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul img{
+  width: 80px;
+  margin: 1em;
+}
+
+footer ul li a{
+  margin-left: 20px;
+  color: #dd0707;
+}

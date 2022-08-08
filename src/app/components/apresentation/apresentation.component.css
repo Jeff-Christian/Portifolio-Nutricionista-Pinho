@@ -1,0 +1,78 @@
+.introduction{
+  height: 400px;
+  background-color: #068687;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+.image{
+  width: 40%;
+  height: 300px;
+  border: 2px solid #fff;
+  margin: 2em;
+  background-image: url(src\assets\img\photo_2022-08-07_20-50-56.jpg);
+  background-size: cover;
+}
+
+.introduction-text{
+  max-width: 600px;
+  font-size: 1.3em;
+  background-color: #068687;
+}
+
+.introduction-text p {
+  margin-top: 1em;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 1024px){
+
+  .introduction-text{
+    font-size: 1.2em;
+  }
+
+  .introduction-text p{
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 768px){
+
+  .introduction-text{
+    font-size: 1em;
+  }
+
+  .introduction-text p{
+    max-width: 300px;
+  }
+
+
+}
+
+@media (max-width: 425px){
+
+  .container{
+    gap: 1em;
+  }
+
+  .image{
+    margin: 2em 20px;
+  }
+
+  .introduction-text{
+    font-size: 10px;
+  }
+
+  .introduction-text p{
+    max-width: 200px;
+  }
+
+
+}
+

@@ -1,0 +1,16 @@
+.objetive{
+  margin-top: 2em;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #068687;
+}
+
+.objetive-list{
+  margin: 20px;
+}
+
+.objetive-list p{
+  font-size: 1em;
+}
