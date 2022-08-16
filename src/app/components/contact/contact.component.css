@@ -77,3 +77,14 @@ a{
   margin-left: 10px;
   margin-right: 20px;
 }
+
+
+/* RESPONSIVO */
+
+@media (max-width: 425px){
+
+  .sell h2{
+    font-size: 1em;
+  }
+
+}

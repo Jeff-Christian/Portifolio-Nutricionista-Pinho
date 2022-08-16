@@ -24,3 +24,14 @@ footer ul li a{
   margin-left: 20px;
   color: #dd0707;
 }
+
+@media screen and (max-width: 320px) {
+
+  footer ul{
+    flex-direction: column;
+  }
+
+  footer ul a img{
+    width: 40px;
+  }
+}

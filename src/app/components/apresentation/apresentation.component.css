@@ -59,10 +59,14 @@
 
   .container{
     gap: 1em;
+    flex-direction: column;
   }
 
   .image{
     margin: 2em 20px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 0;
   }
 
   .introduction-text{

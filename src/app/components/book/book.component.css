@@ -125,3 +125,23 @@
 
 }
 
+@media (max-width: 320px){
+
+  .video{
+    display: none;
+  }
+
+  .book-container{
+    flex-direction: column;
+  }
+
+  .book-container div:nth-child(1) {
+    height: 300px;
+  }
+
+  .book-plus{
+    bottom: -10px;
+  }
+
+}
+
